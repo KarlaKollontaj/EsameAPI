@@ -5,6 +5,7 @@ import json
 def main():
     st.title("Esame API")
     url_API =st.text_input("insert API url","http://localhost:8000/predict")
+    #insert the min, the max and the mean values for rdspend, administration, marketingspend: 0, 1000000, mean)
     rdspend = st.number_input("Insert R&D Spend value",0,1000000,73721)
     administration = st.number_input("Insert Administration value",0,1000000,121344)
     marketingspend = st.number_input("Insert Marketing Spend value",0,1000000,211025)
